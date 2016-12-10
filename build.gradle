@@ -1,0 +1,99 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath 'com.frogermcs.androiddevmetrics:androiddevmetrics-plugin:0.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext.version = [
+        supportLibsVersion    : "25.0.1",
+        constraintVersion     : "1.0.0-beta4",
+        okHttpVersion         : "3.4.2",
+        retrofitVersion       : "2.1.0",
+        rxbindingVersion      : "0.4.0",
+        rxandroidVersion      : "1.2.1",
+        rxjavaVersion         : "1.1.6",
+        daggerVersion         : "2.5",
+        javaxannotation       : "10.0-b28",
+        butterKnifeVersion    : "8.4.0",
+        glideVersion          : "3.7.0",
+        baseRecyclerVersion   : "v1.7.9",
+        drawerVersion         : "5.3.0@aar",
+]
+
+def version = ext.version;
+
+ext.library = [
+        supportCompat          : "com.android.support:appcompat-v7:${version.supportLibsVersion}",
+        supportDesign          : "com.android.support:design:${version.supportLibsVersion}",
+        supportRecyclerView    : "com.android.support:recyclerview-v7:${version.supportLibsVersion}",
+        supportCardView        : "com.android.support:cardview-v7:${version.supportLibsVersion}",
+        constraintLayout       : "com.android.support.constraint:constraint-layout:${version.constraintVersion}",
+        rxjava                 : "io.reactivex:rxjava:${version.rxjavaVersion}",
+        rxandroid              : "io.reactivex:rxandroid:${version.rxandroidVersion}",
+        rxbinding              : "com.jakewharton.rxbinding:rxbinding:${version.rxbindingVersion}",
+        okHttp                 : "com.squareup.okhttp3:okhttp:${version.okHttpVersion}",
+        okHttpLogging          : "com.squareup.okhttp3:logging-interceptor:${version.okHttpVersion}",
+        retrofit               : "com.squareup.retrofit2:retrofit:${version.retrofitVersion}",
+        retrofitGsonConverter  : "com.squareup.retrofit2:converter-gson:${version.retrofitVersion}",
+        retrofitRxJavaAdapter  : "com.squareup.retrofit2:adapter-rxjava:${version.retrofitVersion}",
+        dagger                 : "com.google.dagger:dagger:${version.daggerVersion}",
+        daggerCompiler         : "com.google.dagger:dagger-compiler:${version.daggerVersion}",
+        javaxannotation        : "org.glassfish:javax.annotation:${version.javaxannotation}",
+        butterKnife            : "com.jakewharton:butterknife:${version.butterKnifeVersion}",
+        apt_butterKnife        : "com.jakewharton:butterknife-compiler:${version.butterKnifeVersion}",
+        glide                  : "com.github.bumptech.glide:glide:${version.glideVersion}",
+        baseRecycler           : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${version.baseRecyclerVersion}",
+        drawer                 : "com.mikepenz:materialdrawer:${version.drawerVersion}",
+]
+ext.configuration = [
+        applicationId               : "com.techart.smartsalon",
+        versionMajor                : 0,
+        versionMinor                : 1,
+        versionPatch                : 0,
+        versionClassifier           : "",
+        minimumSdkVersion           : 16,
+        compileSdkVersion           : 25,
+        targetSdkVersion            : 25,
+        buildToolsVersion           : "25.0.1"
+]
+
+def configuration = ext.configuration;
+
+//format: <2 digits - minApi> <1 digit - reverse> <2 digits - major> <2 digits - minor> <2 digits - patch>
+ext.buildVersionCode = {
+    return configuration.minimumSdkVersion * 10000000 + configuration.versionMajor * 10000 + configuration.versionMinor * 100 + configuration.versionPatch
+}
+
+//format: major.minor.patch
+ext.buildVersionNameWithoutClassifier = {
+    return "${configuration.versionMajor}.${configuration.versionMinor}.${configuration.versionPatch}";
+}
+
+//format: major.minor.patch-Classifier
+ext.buildVersionName = {
+    String versionName = ext.buildVersionNameWithoutClassifier();
+    if (configuration.versionClassifier != null && !configuration.versionClassifier.isEmpty()) {
+        versionName = versionName + "-" + configuration.versionClassifier
+    }
+    return versionName;
+}

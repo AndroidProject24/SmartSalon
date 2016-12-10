@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnPrepaid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:text="@string/book_with_prepaid_package"
+        android:background="@drawable/shape_btn"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnCash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/white"
+        android:text="@string/book_service_cash_on_delivery"
+        android:background="@drawable/shape_btn"/>
+</LinearLayout>

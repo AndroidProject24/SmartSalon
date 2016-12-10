@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/text_total"
+            style="@style/style_base"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/total_points"/>
+        <TextView
+            android:id="@+id/txt_total"
+            style="@style/style_base"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp"
+            android:text="0"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_prepaid"
+        android:layout_below="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prepaid_packages"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/transparent20"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_loyalty"
+        android:layout_below="@+id/text_prepaid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/progressbar"/>
+</RelativeLayout>

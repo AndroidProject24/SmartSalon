@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+        <TextView
+            style="@style/style_base"
+            android:text="@string/service"/>
+        <TextView
+            android:id="@+id/txt_service"
+            style="@style/style_text_appointment"
+            android:text="Body popish"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/transparent80"/>
+        <TextView
+            style="@style/style_base"
+            android:text="@string/date"/>
+        <TextView
+            android:id="@+id/txt_date"
+            style="@style/style_text_appointment"
+            android:text="2016-06-14"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/transparent80"/>
+        <TextView
+            style="@style/style_base"
+            android:text="@string/time"/>
+        <TextView
+            android:id="@+id/txt_time"
+            style="@style/style_text_appointment"
+            android:text="11:30"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/transparent80"/>
+        <TextView
+            style="@style/style_base"
+            android:text="@string/provider"/>
+        <TextView
+            android:id="@+id/txt_provider"
+            style="@style/style_text_appointment"
+            android:text="John Levin"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_send_white_36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <include layout="@layout/progressbar"/>
+</RelativeLayout>

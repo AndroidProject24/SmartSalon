@@ -1,0 +1,157 @@
+<RelativeLayout android:id="@+id/login_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="com.techart.smartsalon.ui.fragment.login.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/singhar_beauty"
+            android:textColor="@color/primary_dark"
+            android:textSize="40sp"/>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_email">
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/prompt_email"
+                android:text="ethan@app.co.uk"
+                android:inputType="textEmailAddress"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_pass">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/prompt_password"
+                android:text="123456"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_branch">
+
+            <EditText
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/prompt_branch"
+                android:inputType="text"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/custom_signin_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="6dp"
+            android:background="@color/primary_dark"
+            android:text="@string/sign_in"
+            android:textColor="@color/white"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <TextView
+            android:id="@+id/custom_forget_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/forgot_password"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/custom_signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/iron"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/or"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/iron"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/login_fb_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="6dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/primary_dark"
+            android:text="@string/fb_login_text"
+            android:textColor="@color/white"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/login_google_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="6dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/primary_dark"
+            android:text="@string/google_login_text"
+            android:textColor="@color/white"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+    <include layout="@layout/progressbar"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_avatar_thuvien"
+        android:text="@string/chupcamera"
+        android:textSize="24sp"
+        android:textColor="@color/bpDarker_blue"/>
+    <Button
+        android:id="@+id/thuvien"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_avatar_chup"
+        android:text="@string/chupthuvien"
+        android:textSize="24sp"
+        android:textColor="@color/bpDarker_blue"/>
+    <Button
+        android:id="@+id/huy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_avatar_huy"
+        android:text="@string/huy_dk"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/bpDarker_blue"/>
+</LinearLayout>

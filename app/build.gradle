@@ -1,0 +1,91 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.frogermcs.androiddevmetrics'
+apply from: "$rootProject.projectDir/build.gradle"
+
+
+def configuration = ext.configuration;
+def library = ext.library;
+android {
+    compileSdkVersion configuration.compileSdkVersion
+    buildToolsVersion configuration.buildToolsVersion
+    defaultConfig {
+        applicationId configuration.applicationId
+        minSdkVersion configuration.minimumSdkVersion
+        targetSdkVersion configuration.targetSdkVersion
+        versionCode buildVersionCode()
+        versionName buildVersionName()
+    }
+    signingConfigs {
+        release {
+            storeFile file(KEYSTORE_FILE)
+            storePassword KEYSTORE_PASSWORD
+            keyAlias KEYSTORE_ALIAS
+            keyPassword KEYSTORE_PASSWORD
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/DEPENDENCIES'
+    }
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res-main',
+                    file('src/main/res-screen')
+                            .listFiles()
+                            .each { res.srcDirs += it.path }
+            ]
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //----- Support Libs
+    compile  "${library.supportCompat}"
+    compile  "${library.supportDesign}"
+    compile  "${library.supportRecyclerView}"
+    compile  "${library.supportCardView}"
+    compile  "${library.constraintLayout}"
+    //----- Rx
+    compile  "${library.rxjava}"
+    compile  "${library.rxandroid}"
+    compile  "${library.rxbinding}"
+    //----- Butterknife
+    compile  "${library.butterKnife}"
+    apt      "${library.apt_butterKnife}"
+    //----- Dagger
+    compile  "${library.dagger}"
+    apt      "${library.daggerCompiler}"
+    provided "${library.javaxannotation}"
+    //----- Retrofit
+    compile  "${library.retrofit}"
+    compile  "${library.retrofitGsonConverter}"
+    compile  "${library.retrofitRxJavaAdapter}"
+    compile  "${library.okHttp}"
+    compile  "${library.okHttpLogging}"
+    //-----Glide
+    compile  "${library.glide}"
+    //-----Drawer
+    compile   ("$library.drawer"){
+        transitive = true
+    }
+    //compile 'com.afollestad.material-dialogs:core:0.8.5.9'
+}

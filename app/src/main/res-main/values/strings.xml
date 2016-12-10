@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">SmartSalon</string>
+
+    <!-- Login -->
+    <string name="msg_exit">Please press back again to exit</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_branch">Choose Branch</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="fb_login_text">Sign in with facebook</string>
+    <string name="twitter_login_text">Sign in with Twitter</string>
+    <string name="google_login_text">Sign in with Google</string>
+    <string name="or">or</string>
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+    <string name="username_email_hint">Username/Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="forgot">forgot?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="sign_up">No account yet? Create one</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="singhar_beauty">Singhar Beauty</string>
+
+
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="booking_an_appoinment">Booking an Appoinment</string>
+    <string name="redeem_package_deal">Redeem package deal</string>
+    <string name="view_my_appointment">View my Appointment</string>
+    <string name="view_our_offers">View Our Offers</string>
+    <string name="earn_loyalty_points">Earn Loyalty Points</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="home">Home</string>
+    <string name="shop_info">Shop Info</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="no_data">Data emty!</string>
+    <string name="book_with_prepaid_package">Book with Prepaid package</string>
+    <string name="book_service_cash_on_delivery">Book Service cash on delivery</string>
+    <string name="confirm">Confirm</string>
+    <string name="register">Register</string>
+    <string name="update">Update</string>
+    <string name="not_right_now">Not right now</string>
+    <string name="first_name">Name</string>
+    <string name="last_name">Email</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="postcode">Postcode</string>
+    <string name="send">Send</string>
+    <string name="chupthuvien">Gallery</string>
+    <string name="chupcamera">Camera</string>
+    <string name="huy_dk">No</string>
+    <string name="are_you_online_please_check_your_device_connection_settings">Are you online? Please check your device connection settings.</string>
+    <string name="no_internet">No Internet!</string>
+    <string name="service">Service</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="provider">Provider</string>
+    <string name="total_points">Total points:</string>
+    <string name="prepaid_packages">Prepaid packages</string>
+    <string name="services_left">services left</string>
+    <string name="no_appointment">You don\'t have any upcoming appointment</string>
+    <string name="no_offer">There is no special offer</string>
+</resources>

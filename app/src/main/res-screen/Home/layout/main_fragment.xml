@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/activity_horizontal_margin">
+
+    <TextView
+        style="@style/style_base"
+        android:text="@string/what_would_you_like_to_do"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/black"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TableRow
+            android:id="@+id/tab_appointment"
+            android:gravity="center"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_mail_black_36dp"/>
+
+            <TextView
+                style="@style/main_text"
+                android:text="@string/booking_an_appoinment"/>
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_keyboard_arrow_right"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_deal"
+            android:gravity="center"
+            tools:ignore="UselessParent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_local_offer_black_36dp"/>
+
+            <TextView
+                style="@style/main_text"
+                android:text="@string/redeem_package_deal"/>
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_keyboard_arrow_right"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_my_appointment"
+            android:gravity="center"
+            tools:ignore="UselessParent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_date_range_black_36dp"/>
+
+            <TextView
+                style="@style/main_text"
+                android:text="@string/view_my_appointment"/>
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_keyboard_arrow_right"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_offers"
+            android:gravity="center"
+            tools:ignore="UselessParent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_redeem_black_36dp"/>
+
+            <TextView
+                style="@style/main_text"
+                android:text="@string/view_our_offers"/>
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_keyboard_arrow_right"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_earn_loyalty"
+            android:gravity="center"
+            tools:ignore="UselessParent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_star_black_36dp"/>
+
+            <TextView
+                style="@style/main_text"
+                android:text="@string/earn_loyalty_points"/>
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_keyboard_arrow_right"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_contact_us"
+            android:gravity="center"
+            tools:ignore="UselessParent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_mail_black_36dp"/>
+
+            <TextView
+                style="@style/main_text"
+                android:text="@string/contact_us"/>
+
+            <ImageView
+                style="@style/main_img"
+                android:src="@drawable/ic_keyboard_arrow_right"/>
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background"/>
+</LinearLayout>
