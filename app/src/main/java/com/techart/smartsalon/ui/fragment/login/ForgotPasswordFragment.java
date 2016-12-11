@@ -63,11 +63,13 @@ public class ForgotPasswordFragment extends BaseFragment implements ForgotPassVi
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 

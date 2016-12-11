@@ -82,11 +82,13 @@ public class MyAppointmentFragment extends BaseFragment implements MyAppointment
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 

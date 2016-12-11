@@ -78,11 +78,13 @@ public class AppointmentHistoryFragment extends BaseFragment implements MyAppoin
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 

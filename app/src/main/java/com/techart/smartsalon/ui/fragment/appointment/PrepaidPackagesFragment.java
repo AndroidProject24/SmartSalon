@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.techart.smartsalon.R;
-import com.techart.smartsalon.interfaces.ClickItemListener;
+import com.techart.smartsalon.interfaces.ClickItemRedeemListener;
 import com.techart.smartsalon.libs.loading.AVLoadingIndicatorView;
 import com.techart.smartsalon.mvp.model.appointment.PrepaidPackages;
 import com.techart.smartsalon.mvp.presenter.appointment.PrepaidPackagePresenter;
@@ -28,7 +28,7 @@ import butterknife.BindView;
  * Date: 14/06/2016
  */
 
-public class PrepaidPackagesFragment extends BaseFragment implements PrepaidPackageView ,ClickItemListener {
+public class PrepaidPackagesFragment extends BaseFragment implements PrepaidPackageView ,ClickItemRedeemListener {
     @Inject
     PrepaidPackagePresenter
     mPrepaidPackagePresenter;
@@ -85,11 +85,13 @@ public class PrepaidPackagesFragment extends BaseFragment implements PrepaidPack
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 
@@ -104,8 +106,9 @@ public class PrepaidPackagesFragment extends BaseFragment implements PrepaidPack
     }
 
     @Override
-    public void clickItem(String id, String name) {
+    public void clickItem(String id,String prepaid_id, String name) {
         mPrepaidPackagePresenter.getPreferencesHelper().putService_id(id);
+        mPrepaidPackagePresenter.getPreferencesHelper().putPrepaid_id(prepaid_id);
         mPrepaidPackagePresenter.getPreferencesHelper().putServiceName(name);
         replaceFagment(getFragmentManager(),R.id.fragment,SelectProviderFragment.newInstance());
     }

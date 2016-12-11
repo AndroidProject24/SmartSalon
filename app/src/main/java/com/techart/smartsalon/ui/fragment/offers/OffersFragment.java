@@ -81,11 +81,13 @@ public class OffersFragment extends BaseFragment implements OffersView,ClickItem
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 

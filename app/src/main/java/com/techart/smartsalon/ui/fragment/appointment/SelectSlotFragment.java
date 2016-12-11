@@ -71,12 +71,12 @@ public class SelectSlotFragment extends BaseFragment implements SlotAppointmentV
 
     @Override
     public void showError() {
-        Utils.layoutError(mContext, mLayoutSelectProvider, "No Data");
+        Utils.layoutError(mContext, mLayoutSelectProvider, "We are off today");
     }
 
     @Override
     public void showEmty() {
-
+        Utils.layoutError(mContext, mLayoutSelectProvider, "We are off today");
     }
 
     @Override

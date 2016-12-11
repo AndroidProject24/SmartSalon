@@ -85,11 +85,13 @@ public class AppointmentHistoryDetailsFragment extends BaseFragment implements M
 
     @Override
     public void showLoading() {
+        if(mAVLoadingIndicatorView!=null)
         mAVLoadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAVLoadingIndicatorView!=null)
         mAVLoadingIndicatorView.setVisibility(View.GONE);
     }
 

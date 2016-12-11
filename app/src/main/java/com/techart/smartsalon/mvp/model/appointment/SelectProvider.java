@@ -60,4 +60,18 @@ public class SelectProvider {
     public void setAvatar(String avatar) {
         this.avatar = avatar;
     }
+
+
+    @Override
+    public String toString() {
+        return "SelectProvider{" +
+                "id='" + id + '\'' +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", avatar='" + avatar + '\'' +
+                '}';
+    }
+
 }

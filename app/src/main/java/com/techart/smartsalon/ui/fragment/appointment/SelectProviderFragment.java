@@ -52,22 +52,24 @@ public class SelectProviderFragment extends BaseFragment implements ProviderAppo
 
     @Override
     public void showLoading() {
-        mAvloadingIndicatorView.setVisibility(View.VISIBLE);
+        if(mAvloadingIndicatorView!=null)
+            mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
-        mAvloadingIndicatorView.setVisibility(View.GONE);
+        if(mAvloadingIndicatorView!=null)
+            mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 
     @Override
     public void showError() {
-        Utils.layoutError(mContext,mLayoutSelectProvider,"");
+        Utils.layoutError(mContext,mLayoutSelectProvider,"No provider serves this service yet");
     }
 
     @Override
     public void showEmty() {
-
+        Utils.layoutError(mContext,mLayoutSelectProvider,"No provider serves this service yet");
     }
 
     @Override
@@ -94,8 +96,7 @@ public class SelectProviderFragment extends BaseFragment implements ProviderAppo
     }
     @Override
     public void selectProvice(List<SelectProvider> selectProviderList) {
-        SelectProviderAdapter selectProviderAdapter=new SelectProviderAdapter(mContext,this,selectProviderList);
-        mRecyclerviewProvider.setAdapter(selectProviderAdapter);
+        mRecyclerviewProvider.setAdapter(new SelectProviderAdapter(mContext,this,selectProviderList));
     }
 
     @Override

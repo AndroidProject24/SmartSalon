@@ -13,7 +13,6 @@ import com.techart.smartsalon.R;
 import com.techart.smartsalon.interfaces.ClickItemListener;
 import com.techart.smartsalon.libs.loading.AVLoadingIndicatorView;
 import com.techart.smartsalon.mvp.model.appointment.CashOnDelivery;
-import com.techart.smartsalon.mvp.model.appointment.CashOnDeliveryList;
 import com.techart.smartsalon.mvp.presenter.appointment.CashAppointmentPresenter;
 import com.techart.smartsalon.mvp.view.appointment.CashAppointmentView;
 import com.techart.smartsalon.ui.activity.MainActivity;
@@ -97,11 +96,13 @@ public class CashAppointmentFragment extends BaseFragment implements CashAppoint
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 

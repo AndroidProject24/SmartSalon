@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/5.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="94483f8480525bb7a02df7b250dbb2d581979683">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.mikepenz-materialdrawer-5.3.0_7a52b049ece1f74545dee9dcdd0fd6640283ceeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/glide-3.7.0_dee1cce45450ffb7258c43c664dbb004571e6397.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-beta4_7eb976afc3978407830faf881403a229e20862ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.8/7c5b26f24375685e34a50c2d765ebc40a96a5280/aspectjrt-1.8.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7c5b26f24375685e34a50c2d765ebc40a96a5280">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/aspectjrt-1.8.8_3eacb89e7722f82f6427de880e5641be9fd6292d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_b79eddaf29a62b760f6af4cfa6ecf2d08c7cdf76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_073d3ba4f19ba1711788495b2a1f04c970974ac9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_280398948b5376c10797a2a7eb038079abc92f02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_66113276af2444765744ba9f0eebb0f66eaf242e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_929a4381b77cdb6bc4b1bc011ef53b920ffbdcc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_26a49157cf8a33d653fb5f51fc711228ea903bf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a9c925a6ea41d16d7a36c00e2564e8d345033fc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8a960a991e317410e9f88d9f9701efccb6f809e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_3e93eff5c9873f31f4fd01cff6440479f7e59cb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_48d078d2182b9b66964ec5e09300f3251e619e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_fffe1a92b66372edec2abec7dd6189586d9f1f21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/SDK/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta4_2ff7df4c73c87dbab666d00ef69525f58dde4ae7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_89a128b6c39da0e12d466d24d3c63cae40a6655a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_974d79c92a29630fd4c8c545f2de68d91b544b51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_8c37add03ad42f1a7963eca7a672cba9cab0975a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_6ee15f402b3243f95f60867dd305a8f2d4d208ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_602a7d961c65c617dbb22379205692e58a8dd706.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.frogermcs.androiddevmetrics/androiddevmetrics-runtime/0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9d1d7fbecddb3d6fd53ec2448b1336724ec54abd">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.frogermcs.androiddevmetrics-androiddevmetrics-runtime-0.4_2d2f6cac93b382a60e51b808e4c5470301673d5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_1d33d439d053820f98d29d23edcaa865116b0b0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.2/d99260c62d97beae99ed1f779a35a9bf48c094a6/logging-interceptor-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d99260c62d97beae99ed1f779a35a9bf48c094a6">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.2_dc6174bd45569b62697982be4ad76ca56438445a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/javax.inject-1_a85ef398fec0f93095862a4d7a1ca2ccd099727a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.jakewharton.rxbinding-rxbinding-0.4.0_857f6ad686471701888a2f1250a9a67f6dedd9de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_e7f3305d35cd23bede3405bd93e321bb3fe565d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.mikepenz/fastadapter/1.5.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ab56b2bdb734c6442014eb30048d54221ba3698b">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.mikepenz-fastadapter-1.5.2_e45b0c906c3997f3490d6482f739de59e0dd939f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_d1486470795a377addd18fd969abea99cfaef697.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5a96d555777552701e4dbd0d0c40c2436cb6f1c">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.mikepenz-iconics-core-2.6.0_c34c4c7d846ce784f4b804a737a355f4025dd08a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.5/571f4e0451db64a7b41dbeb5f2503986fe5acdb4/dagger-2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="571f4e0451db64a7b41dbeb5f2503986fe5acdb4">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/dagger-2.5_b03755e69ad2fd096c6f2cb00028eafd81f1be48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_0e2ef9861f85752e0803074cdb1bb4c8ec21e03c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_45ff65cdc50312028efb383b4dd60cea9fcb94c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.8.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="197c431b8fc427f77e02997e299bd6b9bef58ede">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.mikepenz-materialize-0.8.8_ea731c79267038ec4a24ce633deb3d947650d8ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_e3fe9836a5c51b7a41ae95caedc499778a7dba0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_fe9a0e4f984017d09083e2147fdfd924684b2d68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_af1e02672d2e6e6b7a251f4807e81237f81b3785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/gson-2.7_ae396a6bdd51359aa1fdbf2a29e3c96836cc96f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_224479d0d3fd8a61a344e2ac30e707bfd093df30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/okhttp-3.4.2_4fd13156ae14972922d309203c3f1095ee37f871.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/toanit/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/okio-1.9.0_21e551edd61b121e21ffe2cbc332b1406eec5f4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Android/SDK/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Volumes/Data/Android/FreeLancer/SmartSalon/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_c514e3edd6f9c185ae1fe9c86bf2ef7d7a590d30.jar" />
+    </item>
+
+</items>

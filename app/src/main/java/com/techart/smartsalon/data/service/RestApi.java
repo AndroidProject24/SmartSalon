@@ -84,7 +84,7 @@ public interface RestApi {
     Observable<JsonArray<String>> getAllProviderSlots(@Query("service_id") String service_id, @Query("shop_id") String shop_id,@Query("date") String date);
 
     @POST("book")
-    Observable<JsonObject<BookAppointment>> getBook(@Query("user_id") String user_id, @Query("service_id") String service_id, @Query("provider_id") String provider_id, @Query("date") String date,
+    Observable<JsonObject<BookAppointment>> getBook(@Query("user_id") String user_id, @Query("service_id") String service_id,@Query("prepaid_id") String prepaid_id, @Query("provider_id") String provider_id, @Query("date") String date,
                                                  @Query("slot") String slot, @Query("type") String type, @Query("comment") String comment);
 
     /*LOYALTY*/

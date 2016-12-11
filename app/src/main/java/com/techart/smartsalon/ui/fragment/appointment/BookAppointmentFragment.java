@@ -13,6 +13,7 @@ import com.techart.smartsalon.mvp.presenter.appointment.BookAppointmentPresenter
 import com.techart.smartsalon.mvp.view.appointment.BookAppointmentView;
 import com.techart.smartsalon.ui.activity.MainActivity;
 import com.techart.smartsalon.ui.fragment.BaseFragment;
+import com.techart.smartsalon.ui.fragment.MainFragment;
 
 import javax.inject.Inject;
 
@@ -83,15 +84,18 @@ public class BookAppointmentFragment extends BaseFragment implements BookAppoint
     @Override
     public void complete() {
         Snackbar.make(mTxtService, "Send Success!", Snackbar.LENGTH_LONG).show();
+        replaceFagment(getFragmentManager(),R.id.fragment, MainFragment.newInstance());
     }
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 

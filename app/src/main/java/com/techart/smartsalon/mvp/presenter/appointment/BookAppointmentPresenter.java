@@ -24,7 +24,7 @@ public class BookAppointmentPresenter extends BasePresenter<BookAppointmentView>
     }
     public void confirmBooking(){
         getMvpView().showLoading();
-        mRestData.getBook(mPreferencesHelper.getUserId(),mPreferencesHelper.getService_id(),mPreferencesHelper.getProviderId(),
+        mRestData.getBook(mPreferencesHelper.getUserId(),mPreferencesHelper.getService_id(), mPreferencesHelper.getPrepaid_id(),mPreferencesHelper.getProviderId(),
                  mPreferencesHelper.getDate(),mPreferencesHelper.getSlot(),mPreferencesHelper.getPackage_type(),mPreferencesHelper.getFistName())
                 .subscribe(new Subscriber<BookAppointment>() {
                     @Override

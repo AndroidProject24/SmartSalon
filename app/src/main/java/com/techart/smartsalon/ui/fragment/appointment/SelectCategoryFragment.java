@@ -52,12 +52,14 @@ public class SelectCategoryFragment extends BaseFragment implements SelectCatego
 
     @Override
     public void showLoading() {
+        if(mAvloadingIndicatorView!=null)
         mAvloadingIndicatorView.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
-        mAvloadingIndicatorView.setVisibility(View.GONE);
+        if(mAvloadingIndicatorView!=null)
+            mAvloadingIndicatorView.setVisibility(View.GONE);
     }
 
     @Override

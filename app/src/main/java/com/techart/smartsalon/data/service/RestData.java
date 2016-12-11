@@ -44,7 +44,7 @@ public class RestData {
 
     //Branch
     public Observable<List<Branch>> getBranch() {
-        return mRestApi.getBranch("6")
+        return mRestApi.getBranch("5")
                 .map(data->data.payload)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
@@ -131,8 +131,8 @@ public class RestData {
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
     }
-    public Observable<BookAppointment> getBook(String user_id,String service_id, String provider_id, String date,String slot,String type,String comment) {
-        return mRestApi.getBook(user_id,service_id,provider_id,date,slot,type,comment)
+    public Observable<BookAppointment> getBook(String user_id,String service_id,String prepaid_id, String provider_id, String date,String slot,String type,String comment) {
+        return mRestApi.getBook(user_id,service_id,prepaid_id,provider_id,date,slot,type,comment)
                 .map(data->data.payload)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());

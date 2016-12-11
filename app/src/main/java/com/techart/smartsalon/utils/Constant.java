@@ -6,7 +6,7 @@ package com.techart.smartsalon.utils;
  */
 public class Constant {
     public static final String SENDER_ID = "1087328519859";
-    public static String SHOP_ID = "6";
+    public static String SHOP_ID = "5";
     public static final String ANDROID_OS = "2";
     public static final String URL_IMAGE="https://api.smartsalon.net";
     public static final String Package_type_Cash="2";

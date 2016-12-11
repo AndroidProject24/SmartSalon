@@ -46,7 +46,7 @@ public class SelectProviderAdapter extends RecyclerView.Adapter<SelectProviderAd
     public void onBindViewHolder(final ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         if(mSelectProviderList.size()>0) {
             SelectProvider selectProvider = mSelectProviderList.get(position);
-            holder.mTxtName.setText(selectProvider.getFirst_name());
+            holder.mTxtName.setText(selectProvider.getFirst_name() +" "+ selectProvider.getLast_name());
             holder.mTxtContent.setText(selectProvider.getPhone());
             Glide.with(mContext)
                     .load(Constant.URL_IMAGE + selectProvider.getAvatar())
@@ -54,7 +54,7 @@ public class SelectProviderAdapter extends RecyclerView.Adapter<SelectProviderAd
                     .placeholder(R.drawable.image_loader)
                     .override(60, 60)
                     .into(holder.mImgAvatar);
-            holder.itemView.setOnClickListener(v -> mClickItemAppointmentListener.clickItem(selectProvider.getId(), selectProvider.getId()));
+            holder.itemView.setOnClickListener(v -> mClickItemAppointmentListener.clickItem(selectProvider.getId(), selectProvider.getFirst_name()));
         }
     }
 

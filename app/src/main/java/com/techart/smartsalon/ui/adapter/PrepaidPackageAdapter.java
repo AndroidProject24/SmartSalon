@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.techart.smartsalon.R;
-import com.techart.smartsalon.interfaces.ClickItemListener;
+import com.techart.smartsalon.interfaces.ClickItemRedeemListener;
 import com.techart.smartsalon.mvp.model.appointment.PrepaidPackages;
 
 import java.util.List;
@@ -26,9 +26,9 @@ import butterknife.ButterKnife;
 public class PrepaidPackageAdapter extends RecyclerView.Adapter<PrepaidPackageAdapter.ViewHolder> {
     private List<PrepaidPackages> mPrepaidPackagesList;
     private Context mContext;
-    private ClickItemListener mClickItemAppointmentListener;
+    private ClickItemRedeemListener mClickItemAppointmentListener;
 
-    public PrepaidPackageAdapter(Context context, ClickItemListener mClickItemAppointmentListener, @NonNull List<PrepaidPackages> prepaidPackagesList) {
+    public PrepaidPackageAdapter(Context context, ClickItemRedeemListener mClickItemAppointmentListener, @NonNull List<PrepaidPackages> prepaidPackagesList) {
         this.mContext = context;
         this.mClickItemAppointmentListener = mClickItemAppointmentListener;
         this.mPrepaidPackagesList = prepaidPackagesList;
@@ -46,7 +46,7 @@ public class PrepaidPackageAdapter extends RecyclerView.Adapter<PrepaidPackageAd
             PrepaidPackages prepaidPackages = mPrepaidPackagesList.get(position);
             holder.mTxtName.setText(prepaidPackages.getService_name());
             holder.mTxtContent.setText(String.valueOf(Integer.parseInt(prepaidPackages.getBuy()) + Integer.parseInt(prepaidPackages.getFree()) - Integer.parseInt(prepaidPackages.getUsed())) + " services left");
-            holder.itemView.setOnClickListener(v -> mClickItemAppointmentListener.clickItem(prepaidPackages.getService_id(), prepaidPackages.getService_name()));
+            holder.itemView.setOnClickListener(v -> mClickItemAppointmentListener.clickItem(prepaidPackages.getService_id(),prepaidPackages.getPrepaid_id(), prepaidPackages.getService_name()));
         }
     }
 
